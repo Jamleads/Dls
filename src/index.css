@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #12141d;
+  color: #e0e0e0;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0;
+}
+
+.hero {
+  background-image: url("/src/assets/dls_herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+.forMobil {
+  display: none;
+}
+.over {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.overTop {
+  animation: linear infinite 40s animateOverTop;
+}
+.child-container {
+  flex-shrink: 0;
+  width: 400px;
+  background-color: #f4f4f4;
+  height: 100px;
+  overflow-y: hidden;
+}
+@keyframes animateOverTop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-15000px);
+  }
+}
+.overDownCon {
+  width: 100%;
+  overflow-x: auto;
+  direction: rtl;
+}
+.overDown {
+  animation: linear infinite 80s animateOverDown;
+}
+@keyframes animateOverDown {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(15000px);
+  }
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  background: transparent;
+}
+.line {
+  width: 151px;
+  height: 3px;
+  background: #ec8387;
+}
+.innovate {
+  background: linear-gradient(90deg, #2b59ff 0%, #bb2bff 100%);
+}
+.serviceOnMobile {
+  display: none;
+}
+
+/* media  */
+@media (max-width: 768px) {
+  .forMobil {
+    display: flex;
+  }
+  .navLinks {
+    display: none;
+  }
+  .serviceDetails {
+    display: none;
+  }
+  .serviceOnMobile {
+    display: block;
+  }
+}
