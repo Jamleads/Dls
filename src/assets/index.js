@@ -1,4 +1,4 @@
-export { default as Logo } from "../assets/logo.png";
+export { default as Logo } from "../assets/Logo.png";
 export { default as Earth3d } from "../assets/3d-earth.png";
 export { default as VisionImage } from "../assets/Vision.jpeg";
 export { default as MissionImage } from "../assets/Mission.png";
