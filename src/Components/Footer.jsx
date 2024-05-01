@@ -1,5 +1,5 @@
-import { footerLinks } from "../Utilities/Data";
-import { FaArrowRight } from "react-icons/fa6";
+// import { footerLinks } from "../Utilities/Data";
+// import { FaArrowRight } from "react-icons/fa6";
 import { TiSocialLinkedin, TiSocialFacebook } from "react-icons/ti";
 import { RiTwitterXLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-5 py-10 border-b-2 border-borderColor md:w-[80%] mx-auto md:px-0 px-5">
+        {/* <div className="flex md:flex-row flex-col-reverse md:gap-0 gap-5 py-10 border-b-2 border-borderColor md:w-[80%] mx-auto md:px-0 px-5">
           <div className="md:w-3/5 flex md:flex-row flex-col md:gap-0 gap-8">
             <div
               data-aos="fade-up"
@@ -74,7 +74,7 @@ const Footer = () => {
               AI possibilities for global impact.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex items-center md:flex-row flex-col justify-center md:justify-between md:w-[80%] mx-auto md:px-0 px-5 py-5 gap-5">
           <div className="logo">

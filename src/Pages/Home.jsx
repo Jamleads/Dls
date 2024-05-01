@@ -1,7 +1,7 @@
 import { homeSection1 } from "../Utilities/Data";
 import { useEffect, useState } from "react";
 import { clients } from "../Utilities/Data";
-import { GradientYellow, TwitterReviews } from "../assets";
+import { GradientYellow } from "../assets";
 import Button from "../Components/Button";
 import { Link } from "react-router-dom";
 
@@ -178,7 +178,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="reviews flex items-center justify-center flex-col gap-8 bg-[#252835] py-10 md:px-0 px-5">
+      {/* <section className="reviews flex items-center justify-center flex-col gap-8 bg-[#252835] py-10 md:px-0 px-5">
         <div
           data-aos="zoom-in-up"
           data-aos-duration="3000"
@@ -204,7 +204,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section className="my-20">
         <div

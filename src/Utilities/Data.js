@@ -287,11 +287,11 @@ export const serviceSection2 = [
     details:
       "Enterprise System Management optimizes IT operation by aligning service management tools, event management, and monitoring architectures with business objectives. It ensures seamless integration and effective management of IT services through careful selection, configuration, and maintenance of tools. Proactive event management detects and responds to potential disruptions swiftly. Infrastructure, transaction, network, and middleware monitoring architectures maintain optimal performance, resource utilization, and reliability. By harmonizing these elements, Enterprise System Management enhances service availability, minimizes downtime, and maximizes the value derived from IT investments, ultimately driving organizational success.",
   },
-  {
-    id: 6,
-    title: "Software Development",
-    details: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "Software Development",
+  //   details: "",
+  // },
   {
     id: 7,
     title: "Azure Cloud Infrastructure Transformation",
@@ -304,7 +304,7 @@ export const teamDetails = [
     id: 1,
     image: Segun,
     fullName: "Olusegun George",
-    role: "Founder/CEO",
+    role: "Managing Partner",
     linkedin: "https://www.linkedin.com/in/olusegun-george-54052163/",
     bio: "Olusegun George is a former Account Director, West Africa for Governance Risk and Compliance with Thompson Reuters,responsible for driving business development across the West African region and providing GRC advisory services to regulators and Operators. He has over 20 years Banking and Financial services, as former Group Head of Treasury Shared Services and Former Chief Operating officer, Global Markets, both at UBA as well as former Market Analyst at Goldman Sachs to mention a few.",
   },
@@ -312,7 +312,7 @@ export const teamDetails = [
     id: 2,
     image: Moses,
     fullName: "Moses Onitilo",
-    role: "Founder / CGSO",
+    role: "Managing Partner",
     linkedin: "https://www.linkedin.com/in/moses-olumuyiwa-onitilo-4468142/",
     bio: "Moses Onitilo is a 20+ yrs IT veteran with a background in ITSM, ITIL, Digital Transformation, AI, Blockchain, Encryption, Security and other leading edge enterprise management technologies. He is currently Founder / CGSO, of Jamborow LTD, Africa’s first intelligent B2B AI and Blockchain FinTech platforman and Deep Learning Science LTD, A Digital Transformation and Software Development outsourcing firm. Also former founder and Managing partner at Principle Technologies, LLC, AN 18yrs Digital Transformation and ITSM consulting company in USA, with Fortune 500 and European clients.",
   },
@@ -320,7 +320,7 @@ export const teamDetails = [
     id: 3,
     image: Victory,
     fullName: "Victory Oluwasegun",
-    role: "Founder / CIO",
+    role: "Managing Partner",
     linkedin: "https://www.linkedin.com/in/yemioluwasegun/",
     bio: "Mr. VictoryYemi Oluwasegun is the Founder/CIO of Jamborow and COO/co-founder of SpringPort Technologies. He holds bachelor's degrees in computer information systems - Computer Networking and industry certificates, including CompTIA Network+ and Microsoft Certified: Azure Solutions Architect Expert, among others. As a consultant for esteemed organizations such as the World Bank, NASA, Microsoft, and the Pentagon, Mr. Oluwasegun boasts over 20 years of IT experience. His expertise spans product development, software and hardware engineering, and technical integration across various industries including automotive, manufacturing, and government. Recognized for his contributions, he received a commendation letter from the US State Department in 2008. In addition to his professional endeavors, Mr. Oluwasegun actively mentors youth and engages in community initiatives like the Daniel Institute for Youths. He enjoys running, CrossFit, and acting.",
   },

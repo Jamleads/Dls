@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="md:w-1/2 flex flex-col gap-10">
             <p className="text-5xl font-bold">
               Ready to unlock growth? <br />
-              Contact us at D.L.S.
+              Contact us at DLS
             </p>
             <p className="md:w-2/3">
               Thank you for your interest in D.L.S. Fill out the form and we'll
