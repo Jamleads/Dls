@@ -22,9 +22,9 @@ const Contact = () => {
               Contact us at DLS
             </p>
             <p className="md:w-2/3">
-              Thank you for your interest in D.L.S. Fill out the form and we'll
-              reach back out shortly. D.L.S. We are in North America, UK, EMEA,
-              and Africa.
+              Thank you for your interest in DLS Fill out the form and we'll
+              reach back out shortly. DLS We are in North America, UK, EMEA, and
+              Africa.
             </p>
 
             <p className=" text-xs font-light md:w-2/3">

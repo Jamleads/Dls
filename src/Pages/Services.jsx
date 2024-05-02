@@ -81,33 +81,56 @@ const Services = () => {
                 data-aos="flip-left"
                 data-aos-duration="2000"
                 key={index}
-                className="flex flex-col items-center justify-center gap-5 p-5 bg-[#2528354D] rounded-lg"
+                className="dCard bg-[#2528354D] rounded-lg"
               >
-                <img src={item.image} alt="" className="w-[50%] mx-auto" />
-                <p className={`w-[50%] h-[2px] ${item.line}`}></p>
-                <p className="text-center">{item?.title}</p>
+                <div className="page1 flex flex-col items-center justify-center gap-5 p-5">
+                  <img src={item.image} alt="" className="w-[50%] mx-auto" />
+                  <p className={`w-[50%] h-[2px] ${item.line}`}></p>
+                  <p className="text-center">{item?.title}</p>
+                </div>
+
+                <div className="details w-full h-full p-5 page2 text-center flex items-center justify-center">
+                  <p>{item?.details}</p>
+                </div>
               </div>
             ))}
           </div>
 
           <div className="md:w-3/4 mx-auto grid md:grid-cols-3 grid-cols-1 gap-5 my-5">
             {serviceSection1.slice(4, 7).map((item, index) => (
+              // <div
+              //   data-aos="flip-left"
+              //   data-aos-duration="2000"
+              //   key={index}
+              //   className="flex flex-col items-center justify-center gap-5 p-5 bg-[#2528354D] rounded-lg"
+              // >
+              //   <img src={item.image} alt="" className="w-[50%] mx-auto" />
+              //   <p className={`w-[50%] h-[2px] ${item.line}`}></p>
+              //   <p className="text-center">{item?.title}</p>
+              // </div>
+
               <div
                 data-aos="flip-left"
                 data-aos-duration="2000"
                 key={index}
-                className="flex flex-col items-center justify-center gap-5 p-5 bg-[#2528354D] rounded-lg"
+                className="dCard bg-[#2528354D] rounded-lg"
               >
-                <img src={item.image} alt="" className="w-[50%] mx-auto" />
-                <p className={`w-[50%] h-[2px] ${item.line}`}></p>
-                <p className="text-center">{item?.title}</p>
+                <div className="page1 flex flex-col items-center justify-center gap-5 p-5">
+                  <img src={item.image} alt="" className="w-[50%] mx-auto" />
+                  <p className={`w-[50%] h-[2px] ${item.line}`}></p>
+                  <p className="text-center">{item?.title}</p>
+                </div>
+
+                <div className="details w-full h-full p-5 page2 text-center flex items-center justify-center">
+                  <p>{item?.details}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="lg:w-[80%] md:px-0 px-5 mx-auto my-40 md:flex">
           <div
             data-aos="fade-right"
@@ -154,7 +177,7 @@ const Services = () => {
             <p className="py-3">{selectedService?.details}</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

@@ -223,36 +223,50 @@ export const serviceSection1 = [
     image: Service1,
     line: "bg-[#071E60]",
     title: "IT service management",
+    details:
+      "Our IT Service Management (ITSM) approach integrates people, processes, technology, strategy, and delivery for streamlined operations. We prioritize collaboration, structured processes, advanced tools, client-centric strategies, and proactive delivery. By fostering a culture of innovation and continuous improvement, we empower our teams and clients to achieve success. Our ITSM framework, rooted in industry best practices, ensures consistency and optimization across all service areas. Leveraging cutting-edge technologies, we automate tasks, enhance visibility, and improve service quality. Through strategic alignment with business objectives and diligent service delivery, we drive value creation and competitive advantage for our clients.",
   },
   {
     image: Service2,
     line: "bg-[#7DAEAE]",
     title: "Business Service Management Transformation",
+    details:
+      "Business Service Management (BSM) optimizes operations through goal definition, process, technology, governance, and people. BSM aligns business objectives with IT services, fostering clarity and strategic alignment. Structured processes enhance efficiency and consistency in service delivery. Advanced technologies automate workflows, enabling real-time monitoring and informed decision-making. Governance frameworks enforce policies, manage risks, and ensure compliance, promoting accountability and transparency. People-centric approaches prioritize collaboration, communication, and skill development, driving innovation and continuous improvement. By integrating these elements, BSM empowers organizations to achieve operational excellence and deliver value to stakeholders effectively.",
   },
   {
     image: Service3,
     line: "bg-[#FACCAD]",
     title: "Business Service Management Roadmap",
+    details:
+      "Business Service Management (BSM) aims to optimize the delivery and management of business services across the organization. Its scope encompasses the holistic management of services, including planning, design, delivery, and support, to align with business objectives and meet customer needs effectively. Objectives include enhancing service quality, improving operational efficiency, reducing costs, and driving business value through the integration of people, processes, technology, and governance. BSM ensures that IT services are aligned with business goals, enabling organizations to adapt to changing demands, mitigate risks, and capitalize on opportunities for sustainable growth and competitive advantage.",
   },
   {
     image: Service4,
     line: "bg-[#6D6F13]",
     title: "Business Value Realization",
+    details:
+      "Business Value Realization focuses on preparing, registering, actualizing, and governing deliverables to ensure the achievement of business objectives. Preparation involves defining clear goals, identifying key performance indicators (KPIs), and establishing metrics to measure success. This step ensures alignment between business initiatives and expected outcomes. Registration entails documenting the planned value realization activities, including timelines, responsibilities, and resources required. This creates a roadmap for implementation and accountability. Actualization involves executing the planned activities, monitoring progress against set targets, and making necessary adjustments to ensure the desired outcomes are achieved efficiently and effectively.Governance ensures that value realization activities are managed according to established policies, standards, and procedures.",
   },
   {
     image: Service5,
     line: "bg-[#9DE6A4]",
     title: "Enterprise System Management",
+    details:
+      "Enterprise System Management optimizes IT operation by aligning service management tools, event management, and monitoring architectures with business objectives. It ensures seamless integration and effective management of IT services through careful selection, configuration, and maintenance of tools. Proactive event management detects and responds to potential disruptions swiftly. Infrastructure, transaction, network, and middleware monitoring architectures maintain optimal performance, resource utilization, and reliability. By harmonizing these elements, Enterprise System Management enhances service availability, minimizes downtime, and maximizes the value derived from IT investments, ultimately driving organizational success.",
   },
   {
     image: Service6,
     line: "bg-[#C7E5E5]",
     title: "Software Development",
+    details:
+      "Our software development services are designed to transform your ideas into robust, scalable, and efficient solutions. Leveraging cutting-edge technologies and industry best practices, we deliver tailored software products that meet your unique business requirements. Our approach combines expertise in software engineering, agile methodologies, and collaborative development to ensure high-quality outcomes. We prioritize understanding your business needs to architect solutions that drive innovation and growth. From concept to deployment, our team works closely with you to craft custom software applications that optimize processes, enhance productivity, and achieve tangible results",
   },
   {
     image: Service7,
     line: "bg-[#FFFFFF]",
     title: "Azure Cloud Infrastructure Transformation",
+    details:
+      "Azure Cloud Infrastructure Transformation involves migrating Windows Servers, shifting network assets, deploying Cloud-Based Desktop Solutions (Virtual Desktop Infrastructure), and ensuring robust Security Management. Transitioning Windows Servers to Azure enhances scalability and cost-efficiency. Shifting network assets to Azure improves accessibility and performance. Deploying Virtual Desktop Infrastructure on Azure enables flexible, secure desktop environments. Robust Security Management includes identity management, encryption, and threat detection to safeguard data and applications. This transformation optimizes operations, enhances flexibility, and strengthens security posture for organizations embracing cloud technology.",
   },
 ];
 
