@@ -22,7 +22,7 @@ const Contact = () => {
               Contact us at DLS
             </p>
             <p className="md:w-2/3">
-              Thank you for your interest in DLS Fill out the form and we'll
+              Thank you for your interest in DLS. Fill out the form and we'll
               reach back out shortly. DLS We are in North America, UK, EMEA, and
               Africa.
             </p>

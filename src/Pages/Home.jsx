@@ -148,7 +148,7 @@ const Home = () => {
             your organizations performance, productivity and profitability
             through pertinent IT choices, then to implement these choices with
             you. By being unique partners who can both advise on and implement
-            solutions, we enable our cli ents to:
+            solutions, we enable our clients to:
           </p>
 
           <div className="flex lg:flex-row flex-col items-center gap-10">

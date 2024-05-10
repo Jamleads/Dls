@@ -222,7 +222,7 @@ export const serviceSection1 = [
   {
     image: Service1,
     line: "bg-[#071E60]",
-    title: "IT service management",
+    title: "IT Service Management",
     details:
       "Our IT Service Management (ITSM) approach integrates people, processes, technology, strategy, and delivery for streamlined operations. We prioritize collaboration, structured processes, advanced tools, client-centric strategies, and proactive delivery. By fostering a culture of innovation and continuous improvement, we empower our teams and clients to achieve success. Our ITSM framework, rooted in industry best practices, ensures consistency and optimization across all service areas. Leveraging cutting-edge technologies, we automate tasks, enhance visibility, and improve service quality. Through strategic alignment with business objectives and diligent service delivery, we drive value creation and competitive advantage for our clients.",
   },
